@@ -9,7 +9,10 @@ import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 export default defineConfig({
   nitro: process.env.VERCEL ? true : false,
   tanstackStart: {
-    server: {
+    client: {
+      entry: "src/client.tsx", // Memaksa aplikasi membaca file fisik, bukan modul virtual
+    },
+	server: {
       entry: "server",
     },
   },
