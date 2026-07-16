@@ -1,7 +1,14 @@
 name = "d-celup-fried-chicken"
 pages_build_output_dir = "dist"
+compatibility_date = "2024-09-23"
+compatibility_flags = ["nodejs_compat"]
 
 [vars]
+SUPABASE_URL = "https://mrgahkmqtxvjqifmjeqt.supabase.co"
+VITE_SUPABASE_URL = "https://mrgahkmqtxvjqifmjeqt.supabase.co"
+VITE_SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1yZ2Foa21xdHh2anFpZm1qZXF0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODIwNTUyMTEsImV4cCI6MjA5NzYzMTIxMX0.1oDscmTDvH-4ey3-TVqYlcry7ZrDmzt98M3B1WReclw"
+
+[env.production.vars]
 SUPABASE_URL = "https://mrgahkmqtxvjqifmjeqt.supabase.co"
 VITE_SUPABASE_URL = "https://mrgahkmqtxvjqifmjeqt.supabase.co"
 VITE_SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1yZ2Foa21xdHh2anFpZm1qZXF0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODIwNTUyMTEsImV4cCI6MjA5NzYzMTIxMX0.1oDscmTDvH-4ey3-TVqYlcry7ZrDmzt98M3B1WReclw"
